@@ -1,3 +1,4 @@
+# TODO: 1. Use one-liners
 def count_asterisk_exceed_five(text):
     return text.count("*") > 5
 
@@ -9,6 +10,10 @@ He is a silent guardian, a watchful protector... a dark knight."""
     word1 = "hero"
     word2 = "silent"
 
+    # TODO: 4. Consider general usage
+    # TODO: 3. Substitute algorithm
+
+    # TODO: 2. Extract method, remove duplicated code
     # Censor `word1` from `text`
     tmp = text
     while word1 in tmp:
@@ -18,6 +23,7 @@ He is a silent guardian, a watchful protector... a dark knight."""
     if count_asterisk_exceed_five(text):
         print("More than five *")
 
+    # TODO: 2. Extract method, remove duplicated code
     # Censor `word2` from `text`
     tmp = text
     while word2 in tmp:
